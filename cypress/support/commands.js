@@ -128,5 +128,6 @@ const attachFileHandler = () => {
     cy.get('@iframe')
       .find('[name="postal"]')
       .type('12345')
+      //eslint-disable-next-line no-undef
     cy.contains('button', 'Purchase').click()
   })
