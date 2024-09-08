@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/grep": "^3.1.5",
     "@eslint/js": "^9.9.1",
     "@faker-js/faker": "^8.0.2",
     "cypress": "^12.15.0",

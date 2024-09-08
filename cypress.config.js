@@ -9,4 +9,9 @@ module.exports = defineConfig({
   },
   chromeWebSecurity: false,
   defaultCommandTimeout: 10000,
+  setupNodeEvents(on, config) {
+    require('@cypress/grep/src/plugin')(config)
+    return config
+  }
 });
+
