@@ -8,5 +8,5 @@ module.exports = defineConfig({
     baseUrl: "https://notes-serverless-app.com",
   },
   chromeWebSecurity: false,
- defaultCommandTimeout: 10000,
+  defaultCommandTimeout: 10000,
 });
