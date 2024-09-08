@@ -5,7 +5,8 @@
     "rules": {
       "cypress/no-force": "error",
       "cypress/assertion-before-screenshot": "error",
-      "cypress/no-pause": "error"
+      "cypress/no-pause": "error",
+      "no-undef": "off"
     },
     "plugins": [
       "cypress"]

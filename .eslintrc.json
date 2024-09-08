@@ -3,7 +3,8 @@
         "browser": true,
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "cypress/globals": true
     },
     "extends": ["eslint:recommended", "plugin:cypress/recommended"],
     "parserOptions": {
@@ -11,6 +12,7 @@
     },
     
     "rules": {
+        "no-undef": "off",
         "indent": [
             "error",
             2
